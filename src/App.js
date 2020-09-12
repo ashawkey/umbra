@@ -1,25 +1,45 @@
 import React from 'react';
-import logo from './logo.svg';
+import {Switch, Route, Link, HashRouter} from "react-router-dom";
+import ScrollToTop from 'react-scroll-up';
 import './App.css';
+
+import SearchBar from "./SearchBar";
+import SearchResults from "./SearchResults"
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <HashRouter>
+        <div className="header"> 
+          <SearchBar/> 
+        </div>
+        <div className="content">
+          <Switch>
+            {/* Search page */}
+            <Route path="/search/:keyword/:page">
+              <SearchResults />
+            </Route>
+            {/* fallback */}
+            <Route path="*">
+              <NoMatch />
+            </Route>
+          </Switch>
+          
+        </div>
+        <ScrollToTop showUnder={160}>
+          <span className='up-arrow'> ↑ </span>
+        </ScrollToTop>
+        <div className="footer"> 
+          @ <a href='https://github.com/ashawkey'> hawkey </a>
+        </div>
+      </HashRouter>
     </div>
+  );
+}
+
+function NoMatch() {
+  return (
+    <div className="no-match">  </div>
   );
 }
 

@@ -1,0 +1,20 @@
+.page-manager {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-family: Consolas,"Microsoft Yahei","Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+}
+
+.page-manager .jump:hover {
+    text-shadow: 3px 3px 2px rgb(255, 160, 242);
+}
+
+.page-manager .left-button:hover {
+    text-shadow: 3px 3px 2px rgb(255, 160, 242);
+}
+
+.page-manager .right-button:hover {
+    text-shadow: 3px 3px 2px rgb(255, 160, 242);
+}

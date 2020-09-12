@@ -1,0 +1,31 @@
+.flow-item {
+    background-color: #ffffff;
+    margin: 15px 10px 15px 10px;
+    padding: 5px;
+}
+
+.flow-item .url {
+    color: #5e5e5e;
+    font-family: Consolas,"Microsoft Yahei","Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    overflow-wrap: break-word;
+}
+
+.flow-item .title {
+    font-family: Consolas,"Microsoft Yahei","Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    overflow-wrap: break-word;
+    text-decoration: none;
+    color: #3488d6;
+}
+
+.flow-item .title:hover {
+    color: #9302a7;
+    text-decoration:underline;
+}
+
+
+.flow-item .snippet {
+    font-family: Consolas,"Microsoft Yahei","Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+}

@@ -1,0 +1,16 @@
+form {
+    width: 100%;
+}
+
+input {
+    height: 30px;
+    width: calc(100% - 4px); /* this is because border takes up 4px, but <form/> will not handle this just like <div/> */
+    padding: 0;
+    border: 2px solid #000000;
+    background-color: white;
+    color: #000000; 
+    font-family: Consolas,"Microsoft Yahei","Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    text-align: center;
+    transition: all 0.2s ease-in-out;
+}
