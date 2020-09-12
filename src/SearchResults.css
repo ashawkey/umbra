@@ -8,13 +8,16 @@
 }
 
 .page-manager .jump:hover {
+    cursor: pointer;
     text-shadow: 3px 3px 2px rgb(255, 160, 242);
 }
 
 .page-manager .left-button:hover {
+    cursor: pointer;
     text-shadow: 3px 3px 2px rgb(255, 160, 242);
 }
 
 .page-manager .right-button:hover {
+    cursor: pointer;
     text-shadow: 3px 3px 2px rgb(255, 160, 242);
 }
