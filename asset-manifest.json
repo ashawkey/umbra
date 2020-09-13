@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/umbra/static/css/main.1ffeca68.chunk.css",
-    "main.js": "/umbra/static/js/main.05c3419c.chunk.js",
-    "main.js.map": "/umbra/static/js/main.05c3419c.chunk.js.map",
+    "main.js": "/umbra/static/js/main.1943e71c.chunk.js",
+    "main.js.map": "/umbra/static/js/main.1943e71c.chunk.js.map",
     "runtime-main.js": "/umbra/static/js/runtime-main.42717f6e.js",
     "runtime-main.js.map": "/umbra/static/js/runtime-main.42717f6e.js.map",
     "static/js/2.902b2a9d.chunk.js": "/umbra/static/js/2.902b2a9d.chunk.js",
     "static/js/2.902b2a9d.chunk.js.map": "/umbra/static/js/2.902b2a9d.chunk.js.map",
     "index.html": "/umbra/index.html",
-    "precache-manifest.19caac4264d4051a47814011b6a4c223.js": "/umbra/precache-manifest.19caac4264d4051a47814011b6a4c223.js",
+    "precache-manifest.8e5f4fbbd2e003f8d473bfa2c8a1be9f.js": "/umbra/precache-manifest.8e5f4fbbd2e003f8d473bfa2c8a1be9f.js",
     "service-worker.js": "/umbra/service-worker.js",
     "static/css/main.1ffeca68.chunk.css.map": "/umbra/static/css/main.1ffeca68.chunk.css.map",
     "static/js/2.902b2a9d.chunk.js.LICENSE.txt": "/umbra/static/js/2.902b2a9d.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.42717f6e.js",
     "static/js/2.902b2a9d.chunk.js",
     "static/css/main.1ffeca68.chunk.css",
-    "static/js/main.05c3419c.chunk.js"
+    "static/js/main.1943e71c.chunk.js"
   ]
 }
