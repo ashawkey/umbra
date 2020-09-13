@@ -24,7 +24,7 @@ function SearchResults(){
         res => {
           //console.log(res);
           if (res['success']) {
-            setResults(res);
+            setResults(res['results']);
             setLoading(false);
           }
           else {
