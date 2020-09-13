@@ -23,8 +23,8 @@ function SearchBar() {
   }
 
   return (
-    <form onSubmit={handleSubmit}>
-      <input type="text" value={keyword} placeholder="umbra." onChange={handleChange}/>
+    <form autoComplete="off" onSubmit={handleSubmit}>
+      <input type="text" value={keyword} placeholder="umbra" onChange={handleChange}/>
     </form>
   )
 }

@@ -13,17 +13,24 @@ function SearchResults(){
   const history = useHistory();
   const [results, setResults] = useState([]);
   const [loading, setLoading] = useState(true);
+  const [mark, setMark] = useState('☪')
 
   useEffect(()=>{
-    
+    setMark('☪');
     setLoading(true);
     fetch(API_ROOT+"/search?keyword="+keyword+"&page="+page).then(
         res => res.json()
       ).then(
         res => {
           //console.log(res);
-          setResults(res);
-          setLoading(false);
+          if (res['success']) {
+            setResults(res);
+            setLoading(false);
+          }
+          else {
+            console.log(res['error']);
+            setMark('E');
+          }
         }
       )
   }, [keyword, page]);
@@ -49,7 +56,7 @@ function SearchResults(){
 
   if (loading) {
     return (
-      <div className="loading"> ☪ </div>
+      <div className="loading"> {mark} </div>
     );
   }
 
