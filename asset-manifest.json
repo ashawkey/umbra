@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/umbra/static/css/main.1ffeca68.chunk.css",
-    "main.js": "/umbra/static/js/main.1943e71c.chunk.js",
-    "main.js.map": "/umbra/static/js/main.1943e71c.chunk.js.map",
+    "main.css": "/umbra/static/css/main.d3b87069.chunk.css",
+    "main.js": "/umbra/static/js/main.71420c67.chunk.js",
+    "main.js.map": "/umbra/static/js/main.71420c67.chunk.js.map",
     "runtime-main.js": "/umbra/static/js/runtime-main.42717f6e.js",
     "runtime-main.js.map": "/umbra/static/js/runtime-main.42717f6e.js.map",
     "static/js/2.902b2a9d.chunk.js": "/umbra/static/js/2.902b2a9d.chunk.js",
     "static/js/2.902b2a9d.chunk.js.map": "/umbra/static/js/2.902b2a9d.chunk.js.map",
     "index.html": "/umbra/index.html",
-    "precache-manifest.8e5f4fbbd2e003f8d473bfa2c8a1be9f.js": "/umbra/precache-manifest.8e5f4fbbd2e003f8d473bfa2c8a1be9f.js",
+    "precache-manifest.52cd4a75be8da22d1c93cbb98385653b.js": "/umbra/precache-manifest.52cd4a75be8da22d1c93cbb98385653b.js",
     "service-worker.js": "/umbra/service-worker.js",
-    "static/css/main.1ffeca68.chunk.css.map": "/umbra/static/css/main.1ffeca68.chunk.css.map",
+    "static/css/main.d3b87069.chunk.css.map": "/umbra/static/css/main.d3b87069.chunk.css.map",
     "static/js/2.902b2a9d.chunk.js.LICENSE.txt": "/umbra/static/js/2.902b2a9d.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.42717f6e.js",
     "static/js/2.902b2a9d.chunk.js",
-    "static/css/main.1ffeca68.chunk.css",
-    "static/js/main.1943e71c.chunk.js"
+    "static/css/main.d3b87069.chunk.css",
+    "static/js/main.71420c67.chunk.js"
   ]
 }

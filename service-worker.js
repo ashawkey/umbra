@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/umbra/precache-manifest.8e5f4fbbd2e003f8d473bfa2c8a1be9f.js"
+  "/umbra/precache-manifest.52cd4a75be8da22d1c93cbb98385653b.js"
 );
 
 self.addEventListener('message', (event) => {
