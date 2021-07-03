@@ -2,6 +2,8 @@ import React, {useState} from 'react';
 import {useHistory} from "react-router-dom";
 import './SearchBar.css';
 
+import TextField from '@material-ui/core/TextField';
+
 
 function SearchBar() {
   // history must be inside router. This component has to be extracted out to work!
@@ -23,8 +25,13 @@ function SearchBar() {
   }
 
   return (
-    <form autoComplete="off" onSubmit={handleSubmit}>
-      <input type="text" value={keyword} placeholder="umbra" onChange={handleChange}/>
+    <form autoComplete="on" onSubmit={handleSubmit}>
+      <TextField id="searchbar" label="umbra" margin="dense"
+        value={keyword}
+        onChange={handleChange}
+        fullWidth
+        variant="outlined"
+      />
     </form>
   )
 }

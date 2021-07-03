@@ -6,6 +6,7 @@ import {useHistory} from "react-router-dom";
 import Flow from "./Flow"
 
 import "./SearchResults.css";
+import { Paper } from '@material-ui/core';
 
 function SearchResults(){
   let {keyword} = useParams();
@@ -61,11 +62,11 @@ function SearchResults(){
   }
 
   return (
-      <div className="search-results">
+      <Paper className="search-results">
         <Flow meta={results} />
 
         <div className='page-manager'>
-          <span className='left-button' onClick={handleLeftpage}> ᐊ </span>
+          <span className='left-button' onClick={handleLeftpage}> &lt; </span>
           <span className='jump' onClick={()=>{history.push("/search/"+keyword+"/1")}}> {render_current_page(1)} </span>
           <span className='jump' onClick={()=>{history.push("/search/"+keyword+"/2")}}> {render_current_page(2)} </span>
           <span className='jump' onClick={()=>{history.push("/search/"+keyword+"/3")}}> {render_current_page(3)} </span>
@@ -76,10 +77,10 @@ function SearchResults(){
           <span className='jump' onClick={()=>{history.push("/search/"+keyword+"/8")}}> {render_current_page(8)} </span>
           <span className='jump' onClick={()=>{history.push("/search/"+keyword+"/9")}}> {render_current_page(9)} </span>
           <span className='jump' onClick={()=>{history.push("/search/"+keyword+"/10")}}> {render_current_page(10)} </span>
-          <span className='right-button' onClick={handleRightpage}> ᐅ </span>
+          <span className='right-button' onClick={handleRightpage}> &gt; </span>
         </div>
 
-      </div>
+      </Paper>
   );
 }
 
