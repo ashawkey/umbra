@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/umbra/static/css/main.b1d2c68f.chunk.css",
-    "main.js": "/umbra/static/js/main.05fad940.chunk.js",
-    "main.js.map": "/umbra/static/js/main.05fad940.chunk.js.map",
+    "main.css": "/umbra/static/css/main.95d84eb5.chunk.css",
+    "main.js": "/umbra/static/js/main.fa6b4194.chunk.js",
+    "main.js.map": "/umbra/static/js/main.fa6b4194.chunk.js.map",
     "runtime-main.js": "/umbra/static/js/runtime-main.38000ef7.js",
     "runtime-main.js.map": "/umbra/static/js/runtime-main.38000ef7.js.map",
-    "static/js/2.6973b83b.chunk.js": "/umbra/static/js/2.6973b83b.chunk.js",
-    "static/js/2.6973b83b.chunk.js.map": "/umbra/static/js/2.6973b83b.chunk.js.map",
+    "static/js/2.53fc054d.chunk.js": "/umbra/static/js/2.53fc054d.chunk.js",
+    "static/js/2.53fc054d.chunk.js.map": "/umbra/static/js/2.53fc054d.chunk.js.map",
     "index.html": "/umbra/index.html",
-    "static/css/main.b1d2c68f.chunk.css.map": "/umbra/static/css/main.b1d2c68f.chunk.css.map",
-    "static/js/2.6973b83b.chunk.js.LICENSE.txt": "/umbra/static/js/2.6973b83b.chunk.js.LICENSE.txt"
+    "static/css/main.95d84eb5.chunk.css.map": "/umbra/static/css/main.95d84eb5.chunk.css.map",
+    "static/js/2.53fc054d.chunk.js.LICENSE.txt": "/umbra/static/js/2.53fc054d.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.38000ef7.js",
-    "static/js/2.6973b83b.chunk.js",
-    "static/css/main.b1d2c68f.chunk.css",
-    "static/js/main.05fad940.chunk.js"
+    "static/js/2.53fc054d.chunk.js",
+    "static/css/main.95d84eb5.chunk.css",
+    "static/js/main.fa6b4194.chunk.js"
   ]
 }
