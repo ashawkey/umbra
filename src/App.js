@@ -12,11 +12,7 @@ function App() {
       <HashRouter>
         <Switch>
           {/* Search page */}
-          <Route path="/google/:keyword/:page">
-            <div className="searchbar topped"> <SearchBar/> </div>
-            <div className="searchres"> <SearchResults/> </div>
-          </Route>
-          <Route path="/yhdm/:keyword">
+          <Route path="/:domain/:keyword/:page?">
             <div className="searchbar topped"> <SearchBar/> </div>
             <div className="searchres"> <SearchResults/> </div>
           </Route>
