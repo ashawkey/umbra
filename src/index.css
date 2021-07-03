@@ -1,12 +1,13 @@
 body {
-    max-width: 60em;
+    max-width: 70em;
     margin: 0 auto;
 }
 
 @keyframes spin { 100% { transform:rotate(360deg); } }
 
 .loading {
+    margin: 30px;
     text-align: center;
-    font-size: 30px;
+    font-size: 25px;
     animation: spin 2s linear infinite;
 }

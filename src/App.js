@@ -12,9 +12,13 @@ function App() {
       <HashRouter>
         <Switch>
           {/* Search page */}
-          <Route path="/search/:keyword/:page">
+          <Route path="/google/:keyword/:page">
             <div className="searchbar topped"> <SearchBar/> </div>
-            <SearchResults />
+            <div className="searchres"> <SearchResults/> </div>
+          </Route>
+          <Route path="/yhdm/:keyword">
+            <div className="searchbar topped"> <SearchBar/> </div>
+            <div className="searchres"> <SearchResults/> </div>
           </Route>
           {/* fallback */}
           <Route path="*">
